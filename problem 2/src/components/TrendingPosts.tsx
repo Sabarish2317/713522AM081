@@ -46,11 +46,7 @@ const MostCommentedPosts: React.FC = () => {
       <div>
         {topPosts.map((post) => (
           <div key={post.id} className="py-3  flex flex-col">
-            <img
-              className="w-20"
-              src="https://xsgames.co/randomusers/avatar.php?g=pixel "
-              alt=""
-            />
+            <img className="w-20" src="/dummy.jpeg" alt="" />
             <span className="font-semibold">{post.content}</span>
             <span className="text-gray-500">User ID: {post.userid}</span>
             <span className="font-bold text-purple-400">
